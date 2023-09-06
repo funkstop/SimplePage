@@ -1,4 +1,26 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:darkorange;
+    text-align: center;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+}
+
+body {
+    background-color: lightblue;
+    text-align: middle;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 10em;
 }
