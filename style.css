@@ -7,7 +7,7 @@ h1 {
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
-    color:blueviolet;
+    color:darkorange;
 }
 
 li {
@@ -19,6 +19,7 @@ li {
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:large;
+    color: #444444
 }
 
 body {
