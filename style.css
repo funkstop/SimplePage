@@ -1,7 +1,28 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the page title */
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color:darkorange;
+}
+
+/* Style headings in sections */
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -10,44 +31,57 @@ h3 {
     color:darkorange;
 }
 
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color:darkblue;
-}
 
+/* Style paragraphs in sections */
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:large;
-    color: #444444
+    font-size:16px;
+    color: #444444;
+    line-height: 1.5;
+    padding-bottom: 10;
+}
+
+/* Style the embedded video section */
+.video {
+    margin: 20px;
 }
 
 body {
     background-color: lightblue;
     text-align: middle;
+    padding-left: 20px;
+    padding-top: 20px;
+
 }
 
-.iframeDiv {
-    width: 80%;
-    position: relative;
-    padding:30% 0 0 0;
+/* Style the main content section */
+.main-content {
+    margin: 20px;
 }
 
+/* Style the iframe */
 .iframeEmbed {
-    position: absolute;
     top: 0;
     left: 20;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 50%;
 }
 
-.container {
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Style the reference links section */
+.reference-links {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:darkblue;
 }
 
-.item {
-    width: 10em;
+/* Style links in the reference links section */
+.reference-links a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Change link color on hover */
+.reference-links a:hover {
+    color: #004580;
 }
